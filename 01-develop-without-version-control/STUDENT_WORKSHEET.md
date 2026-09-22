@@ -11,7 +11,7 @@ Create `combined.cpp` with both features. Do not use Git or an automatic compari
 
 | File | Feature present | Important changed lines |
 |---|---|---|
-| `student_file_a.cpp` |  |  |
+| `student_file_a.cpp` | score range validation |  |
 | `student_file_b.cpp` |  |  |
 
 | Input | Actual output | Pass/fail |
