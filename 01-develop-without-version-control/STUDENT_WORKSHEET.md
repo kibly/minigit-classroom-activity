@@ -11,28 +11,27 @@ Create `combined.cpp` with both features. Do not use Git or an automatic compari
 
 | File | Feature present | Important changed lines |
 |---|---|---|
-| `student_file_a.cpp` |  |  |
-| `student_file_b.cpp` |  |  |
+| `student_file_a.cpp` | 11 |14  |
+| `student_file_b.cpp` | 1 | 13 |16|
 
 | Input | Actual output | Pass/fail |
 |---|---|---|
-| `70 80 90` |  |  |
-| `-1 80 90` |  |  |
-| `70 101 90` |  |  |
+| `70 80 90` | 80.0 |90.0 |pass|
+| `-1 80 90` | invalid score | fail |
+| `70 101 90` | invalid score | fail |
 
 ## From experience to requirements
 
 **Observation — what actually happened while you worked:**
 
-________________________________________________________________________
-
+__when a file replace another file the validation code disappears.
 **Problem — why that event could cause harm:**
 
-________________________________________________________________________
+_that could cause a problem because the valid code will be lost_
 
-**UN:** A developer needs a way to ______________________________________
+**UN:** A developer needs a way to  to combine independent changes_
 
-because ________________________________________________________________.
+because _it can detroye a __valid work.
 
 **UR:** A developer shall be able to ___________________________________.
 
